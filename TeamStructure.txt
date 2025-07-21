@@ -1,0 +1,11 @@
+PlayerName|Position|Power|Jumping|Stamina|Sense|Technique|Speed|StartingPosition
+
+Each player within a team should be organised as shown above. The simulator is designed
+with the manga/anime Haikyuu in mind and all stats are suggested to be taken directly from
+the official books.
+
+PlayerName: The name of the player. Any string that python can interpret exculding '|'. (i.e. no accents on letters etc.)
+Position: The player's position in volleyball, one of the following: WS, O, MB, S, L
+Power -> Speed: Stats from the Haikyuu handbooks. If making a team not based off Haikyuu, use numbers 1 - 5 for each. (MUST BE AN INTEGER)
+StartingPosition: Where this player starts on the court, each team requires at least players positioned 1 -> 6, subs should
+have a position of 7. (MUST BE AN INTEGER)
